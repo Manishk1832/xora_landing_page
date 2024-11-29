@@ -16,6 +16,8 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll)
 
   }, []);
+
+
   const NavLink = ({ title }) => (
       <LinkScroll
           onClick={() => setIsOpen(false)}
